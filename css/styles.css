@@ -12,7 +12,7 @@ section {
 }
 
 .container {
-  max-width: 34em;
+  max-width: 24em;
   margin: auto;
 }
 
@@ -25,25 +25,22 @@ a:hover {
   font-weight: bold;
 }
 
-a:active,
+a:active {
+  color: black;
+}
+
 a:visited {
   color: black;
 }
 
 #logo {
+  fill: #495edf;
+  max-width: 12em;
   padding-bottom: 0;
-  max-width: 32em;
-}
-
-#logo img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 #blurb {
   padding-top: 0;
-  max-width: 32em;
 }
 
 #ethos {
@@ -52,36 +49,37 @@ a:visited {
   padding-bottom: .75rem;
   padding-left: .75rem;
   padding-right: .75rem;
-}
+
+  }
 
 #rights {
   font-size: .75rem;
   text-align: center;
 }
 
+
 .h3-space {
-  text-align: left;
-  margin-top: 15px;
-  padding-top: 0px;
+    text-align: left;
+    margin-top: 15px;
+    padding-top: 0px;
 }
 
+
 @media (62em <= width) {
-  .container {
-    max-width: 34em;
+    #logo {
+    max-width: 12.5em;
   }
-  .h3-space {
-    font-size: 1.2em;
+    .container {
+    max-width: 25em;
+  }
+    .h3-space {
+      font-size: 1.2em;
   }
 }
 
 @media (width <= 62em) {
-  .container {
+    .container {
     margin-top: 7.5em !important;
-    max-width: 28em;
-  }
-
-  #logo,
-  #blurb {
-    max-width: 100%;
   }
 }
+

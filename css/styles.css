@@ -1,0 +1,85 @@
+html, body {
+  overflow: hidden;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  color: black;
+}
+
+section {
+  padding: 0 !important;
+}
+
+.container {
+  max-width: 24em;
+  margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#logo {
+  fill: #495edf;
+  max-width: 12em;
+  padding-bottom: 0;
+}
+
+#blurb {
+  padding-top: 0;
+}
+
+#ethos {
+  text-align: right;
+  padding-top: 0;
+  padding-bottom: .75rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+
+  }
+
+#rights {
+  font-size: .75rem;
+  text-align: center;
+}
+
+
+.h3-space {
+    text-align: left;
+    margin-top: 15px;
+    padding-top: 0px;
+}
+
+
+@media (62em <= width) {
+    #logo {
+    max-width: 12.5em;
+  }
+    .container {
+    max-width: 25em;
+  }
+    .h3-space {
+      font-size: 1.2em;
+  }
+}
+
+@media (width <= 62em) {
+    .container {
+    margin-top: 7.5em !important;
+  }
+}
+

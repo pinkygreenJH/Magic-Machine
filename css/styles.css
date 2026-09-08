@@ -67,10 +67,10 @@ a:visited {
 
 @media (62em <= width) {
     #logo {
-    max-width: 30.0em;
+    max-width: 26.0em;
   }
     .container {
-    max-width: 30em;
+    max-width: 26em;
   }
     .h3-space {
       font-size: 1.2em;

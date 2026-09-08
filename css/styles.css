@@ -34,9 +34,13 @@ a:visited {
 }
 
 #logo {
-  fill: #495edf;
   max-width: 12em;
   padding-bottom: 0;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 #blurb {
@@ -49,37 +53,33 @@ a:visited {
   padding-bottom: .75rem;
   padding-left: .75rem;
   padding-right: .75rem;
-
-  }
+}
 
 #rights {
   font-size: .75rem;
   text-align: center;
 }
 
-
 .h3-space {
-    text-align: left;
-    margin-top: 15px;
-    padding-top: 0px;
+  text-align: left;
+  margin-top: 15px;
+  padding-top: 0px;
 }
 
-
 @media (62em <= width) {
-    #logo {
+  #logo {
     max-width: 12.5em;
   }
-    .container {
+  .container {
     max-width: 25em;
   }
-    .h3-space {
-      font-size: 1.2em;
+  .h3-space {
+    font-size: 1.2em;
   }
 }
 
 @media (width <= 62em) {
-    .container {
+  .container {
     margin-top: 7.5em !important;
   }
 }
-

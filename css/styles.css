@@ -81,5 +81,9 @@ a:visited {
     .container {
     margin-top: 7.5em !important;
   }
+
+  #logo img {
+    transform: translateX(-0.5rem);
+  }
 }
 

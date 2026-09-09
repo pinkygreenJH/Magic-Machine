@@ -86,7 +86,7 @@ a:visited {
   }
 
   #logo img {
-    transform: translateX(0rem);
+    transform: translateX(0.25rem);
   }
 }
 

@@ -87,8 +87,4 @@ a:visited {
 
   #logo img {
     transform: translateX(-0.25rem);
-  }
-}
-.email-line {
-  white-space: nowrap;
 }
